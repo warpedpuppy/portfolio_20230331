@@ -1,4 +1,4 @@
-import * as PIXI from 'pixijs';
+// import * as PIXI from 'pixijs';
 export function ParticleBallFunction(){
 	const app = new PIXI.Application({ width: 400, height: 400 }), dotQ = 500, lineQ = 500;
 	// document.getElementById('particle-ball').appendChild(app.view);
