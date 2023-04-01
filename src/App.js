@@ -1,20 +1,31 @@
 
 import './App.scss';
-import Logo from './components/Logo';
+import Home from './pages/Home';
+import CV from './pages/CV';
 import './animations/animations.scss';
+import { useState } from 'react';
+import Logo from './components/Logo';
+import Contact from './pages/Contact';
+import FunStuff from './pages/fun-stuff/FunStuff';
 function App() {
+	const [page, setPage] = useState('home');
   return (
     <div className="App">
-
-		<section id="home">
-			<div id="home-box">
-				<fieldset><legend>home</legend></fieldset>
-				<fieldset><legend>c.v.</legend></fieldset>
-				<fieldset><legend>fun stuff</legend></fieldset>
-				<fieldset><legend>contact</legend></fieldset>
-			</div>
-			<Logo />
-		</section>
+		{
+			page !== 'home' && <Logo />
+		}
+		{
+			page === 'home' && <Home setPage={setPage} />
+		}
+		{
+			page === 'CV' && <CV setPage={setPage}  />
+		}
+		{
+			page === 'contact' && <Contact setPage={setPage}  />
+		}
+			{
+			page === 'fun-stuff' && <FunStuff setPage={setPage}  />
+		}
     </div>
   );
 }

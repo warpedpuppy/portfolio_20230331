@@ -6,3 +6,37 @@
 		transform: rotate(360deg);
 	}
 }
+@keyframes slide-in {
+	0% {
+		left: 100vw;
+	}
+	100% {
+		left: 0;
+	}
+}
+@keyframes slide-in-reverse {
+	0% {
+		left: -100vw;
+	}
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes wobble {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-10deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}

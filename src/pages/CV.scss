@@ -1,0 +1,25 @@
+
+#cv ul {
+	width: 95%;
+	margin: 20px auto;
+}
+#cv ul li {
+	text-align: left;
+	color: white;
+	margin: 1.25rem;
+	font-weight: 900;
+	animation-name: slide-in;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	position: relative;
+}
+#cv ul li:nth-child(odd) {
+	animation-name: slide-in-reverse;
+}
+#cv ul li a {
+	color: white;
+}
+#cv ul li a:visited {
+	color: white;
+}

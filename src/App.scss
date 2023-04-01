@@ -1,67 +1,19 @@
-:root {
-	--box-size: 400px;
-}
 
 body {
   background-color: black;
   text-align: center;
 }
-#home {
-  position: relative;
-  width: var(--box-size);
-  height: var(--box-size);
-	margin: 150px auto;
-  svg {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-  }
-  &:hover #home-box {
-	animation-play-state: paused;
-  }
-  #home-box {
-    position: relative;
-   
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: var(--box-size);
-    height: var(--box-size);
-    transform-origin: center;
-    animation: spin 20s infinite linear;
-    fieldset {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      border-radius: 50%;
-      width: var(--box-size);
-      height: var(--box-size);
-      margin: 0 auto;
-    }
-    fieldset:nth-child(2) {
-      border: none;
-      transform: rotate(90deg);
-    }
-    fieldset:nth-child(3) {
-      border: none;
-      transform: rotate(180deg);
-    }
-    fieldset:nth-child(4) {
-      border: none;
-      transform: rotate(270deg);
-    }
-    legend {
-      position: absolute;
-      top: 0;
-      left: 0;
-      color: white;
-      font-weight: bold;
-      transform: rotate(-40deg);
-	  font-size: 1.5rem;
-	  cursor: pointer;
-    }
-  }
+.App {
+	padding-top: 20px;
 }
+section span.close {
+	color: white;
+	font-size: 2rem;
+	display: block;
+	padding: 10px;
+	border: 1px solid white;
+	cursor: pointer;	
+	width: 30%;
+	border-radius: 1.25rem;
+	margin: 10px auto;
+}	
