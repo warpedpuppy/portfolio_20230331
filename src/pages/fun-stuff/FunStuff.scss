@@ -1,5 +1,15 @@
-#fun-stuff h3 {
-	color: white;
-	margin: 50px auto 10px;
-	font-size: 3rem;
+#fun-stuff {
+	width: max-content;
+	margin: 0 auto;;
+  h3 {
+    color: white;
+    margin: 50px auto 10px;
+    font-size: 3rem;
+  }
+  p {
+    color: white;
+	font-weight: bold;
+	margin: 20px;
+	text-align: left;
+  }
 }

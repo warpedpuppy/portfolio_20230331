@@ -1,8 +1,9 @@
+import BackButton from '../components/BackButton';
 import './Contact.scss';
 function Contact({setPage}) {
 	return ( 
 		<section id="contact">
-			<span className="close" onClick={() => setPage('home')}>x</span>
+			<BackButton setPage={setPage}/>
 			<ul>
 			<li>ted</li>
 			<li>[@]</li>

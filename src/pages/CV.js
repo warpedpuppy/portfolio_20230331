@@ -1,8 +1,9 @@
+import BackButton from '../components/BackButton';
 import './CV.scss';
 function CV({setPage}) {
   return (
     <section id="cv">
-	  <span className="close" onClick={() => setPage('home')}>x</span>
+	  <BackButton  setPage={setPage}/>
       <ul>
         <li>Graduated from U.C. Berkeley with Distinction.</li>
         <li>Worked for an educational game company, programming games.</li>

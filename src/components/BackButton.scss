@@ -1,0 +1,17 @@
+section span.close {
+	color: white;
+	font-size: 2rem;
+	display: block;
+	padding: 10px;
+	border: 1px solid white;
+	cursor: pointer;	
+	width: 30%;
+	border-radius: 1.25rem;
+	margin: 10px auto;
+	transition: background-color var(--transition-speed), color  var(--transition-speed);
+	&:hover {
+		background-color: white;
+		color: black;
+	
+	}
+}	

@@ -13,9 +13,9 @@
 	margin: 1.25rem;
 	font-weight: 900;
 	animation-name: slide-in;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
+	// animation-timing-function: ease-out;
 	position: relative;
 }
 #cv ul li:nth-child(odd) {
