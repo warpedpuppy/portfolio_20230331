@@ -75,6 +75,12 @@
         font-size: 1.5rem;
         line-height: 1.5rem;
         cursor: pointer;
+        transition: background-color var(--transition-speed),
+          color var(--transition-speed);
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
     }
   }
