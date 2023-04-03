@@ -1,5 +1,5 @@
 #cv {
-	width: max-content;
+	width: 85vw;
 	margin: 0 auto;
 }
 
@@ -26,4 +26,11 @@
 }
 #cv ul li a:visited {
 	color: white;
+}
+@media (min-width: 768px) {
+	#cv {
+		width: max-content;
+		margin: 0 auto;
+	}
+
 }
