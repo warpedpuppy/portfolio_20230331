@@ -1,5 +1,8 @@
-svg {
+svg#wp-logo {
 	width: 300px;
+	animation: wobble 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
   .cls-1 {
     stroke-linecap: round;
     stroke-linejoin: round;
