@@ -1,11 +1,15 @@
-import BackButton from '../components/BackButton';
+import Button from '../components/Button';
 import './CV.scss';
 function CV({setPage}) {
   return (
     <section id="cv">
-	  <BackButton  setPage={setPage}/>
+		<Button setPage={setPage} text="back" link="home" />
       <ul>
-        <li>Graduated from U.C. Berkeley with Distinction.</li>
+        <li>Graduated from U.C. Berkeley with Distinction.
+			<ul>
+				<li>although to clarify, that means the very lowest of honors so I'm not sure that's worthwhile pointing out.</li>
+			</ul>
+		</li>
         <li>Worked for an educational game company, programming games.</li>
         <li>Worked for an app development company, programming mobile apps.</li>
         <li>

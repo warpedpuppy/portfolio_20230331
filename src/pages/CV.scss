@@ -18,6 +18,9 @@
 	// animation-timing-function: ease-out;
 	position: relative;
 }
+#cv ul li ul li {
+	font-weight: 400;
+}
 #cv ul li:nth-child(odd) {
 	animation-name: slide-in-reverse;
 }

@@ -1,5 +1,6 @@
 import Logo from '../components/Logo';
 import './Home.scss';
+import Button from '../components/Button'
 function Home({ setPage }) {
  
   const year = new Date().getFullYear();
@@ -11,8 +12,8 @@ function Home({ setPage }) {
       <div id="home-box">
 		<p>I am Ted, a software engineer with {years} years experience.</p>
 		<ul>
-			<li><h3 onClick={ () => setPage('CV')}>c.v.</h3></li>
-			<li><h3 onClick={ () => setPage('contact')}>contact</h3></li>
+			<li><Button setPage={setPage} text="c.v." link="CV" /></li>
+			<li><Button setPage={setPage} text="contact" link="contact"/></li>
 		</ul>
       </div>
     </section>

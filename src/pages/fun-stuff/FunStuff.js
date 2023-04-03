@@ -1,10 +1,10 @@
-import BackButton from '../../components/BackButton';
+import Button from '../../components/Button';
 import './FunStuff.scss';
 import ParticleBall from './items/particle-ball/ParticleBall';
 function FunStuff({setPage}) {
 	return ( 
 		<section id="fun-stuff">
-			<BackButton  setPage={setPage}/>
+			<Button  setPage={setPage}/>
 			<h3>fun stuff</h3>
 			<p>I have a million and a half mini javascript web games that I want to post here and no time to do it.</p>
 			<p>So I just have to beg your patience right now. </p>

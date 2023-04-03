@@ -1,0 +1,47 @@
+.button-container {
+  position: relative;
+  //   width: max-content;
+  margin: 20px auto;
+
+  cursor: pointer;
+  &:hover {
+	.dog-bone {
+		fill: #ff00ff;
+		stroke: #ffffff;
+	}
+	div.btn {
+	  color: black;
+	}
+  }
+  svg {
+	// animation: wobble 2s;
+	// animation-timing-function: linear;
+	// animation-iteration-count: infinite;
+    width: 150px;
+	
+  }
+  .dog-bone {
+    fill: black;
+    stroke: #ff00ff;
+    stroke-width: 1px;
+    stroke-miterlimit: 10;
+    transition: fill var(--transition-speed);
+  }
+  div.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: 900;
+    display: block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 1.25rem;
+    transition: background-color var(--transition-speed),
+      color var(--transition-speed), border-color var(--transition-speed);
+  }
+}
