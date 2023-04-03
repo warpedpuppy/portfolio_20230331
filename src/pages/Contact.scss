@@ -9,6 +9,7 @@
 			margin: 1.25rem;
 			animation-name: wobble;
 			animation-duration: 1s;
+			animation-timing-function: linear;
 			animation-iteration-count: infinite;
 			&:nth-child(odd) {
 				animation-direction: reverse;
