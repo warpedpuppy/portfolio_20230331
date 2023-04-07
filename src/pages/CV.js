@@ -20,7 +20,7 @@ function CV({setPage}) {
           Designed and coded six mobile games. Five of which no one played and
           one of which a lot of people played.
         </li>
-        <li>Built and Managed a subscription based ecommerce site.</li>
+        <li>Built and managed a subscription based ecommerce site.</li>
         <li>Mentor at multiple technical educational companies.</li>
         <li>
           Worked for a medical company, programming the front-end controls for a
